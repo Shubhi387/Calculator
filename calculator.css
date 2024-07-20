@@ -1,0 +1,55 @@
+body{
+    background-image: url(./60c715285cae14f6a4c97f4e10e3fe97.jpg);
+}
+div.container{
+width: 400px;
+height: 500px;
+background-color: rgb(243 243 243);
+position: relative;
+top: 100px;
+left: 30%;
+
+}
+.display{
+    width:99%;
+    height:45%;
+    position: relative;
+}
+#input{
+    font-size: 30px;
+    height: 30px;
+    border: none;
+    background-color: rgb(243 243 243);
+    caret-color: blue;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    outline: none;
+    position:absolute;
+    bottom: 2%;
+    right: 0;
+    text-align: end;
+
+}
+.buttons {
+    display: flex; 
+    justify-content: center; 
+     flex-wrap: wrap;
+}
+.buttons button{
+    width: 80px;
+    height: 45px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(215, 213, 213);
+    font-size: 25px;
+}
+.orange{
+    color: rgba(255, 136, 0, 0.982);
+    font-size: 15px;
+}
+#equals-to{
+background-color: orange;
+color: white;
+font-size: 30px;
+}
